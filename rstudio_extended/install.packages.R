@@ -1,12 +1,9 @@
 
 source('https://bioconductor.org/biocLite.R')
 biocLite("GenomicRanges")
-
 install.packages(c("tidyverse","dplyr","ggplot2","devtools","formatR","data.table","ggExtra","matrixStats","scales",
 "useful","grid","plotly","RColorBrewer","reshape2","plyr","VennDiagram","zoo","stringr","ggrepel","geneplotter",
-"RColorBrewer","VennDiagram","colorspace","fdrtool"),keep_outputs=TRUE)
-
-# bioconductor packages
+"RColorBrewer","VennDiagram","colorspace","fdrtool"))
 biocLite("monocle")
 biocLite("DeSeq2")
 biocLite("biomaRt")
