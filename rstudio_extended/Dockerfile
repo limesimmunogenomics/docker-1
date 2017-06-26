@@ -12,7 +12,7 @@ RUN apt-get update -qq && apt-get -y --no-install-recommends install \
   libssh2-1-dev \
   #&& R -e "source('https://bioconductor.org/biocLite.R')" \
   #
-  && R -e "source('https://github.com/limesimmunogenomics/docker_extended/blob/master/rstudio_extended/install.packages.R')" \
+  && R -e "source('install.packages.R')" \
   #
   # && install2.r --error \
   #   --deps TRUE \
