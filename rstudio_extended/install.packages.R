@@ -24,7 +24,6 @@ biocLite("pcaGoPromoter.Mm.mm9")
 biocLite("pcaGoPromoter.Hs.hg19")
 biocLite("org.Mm.eg.db")
 biocLite("org.Hs.eg.db")
-biocLite("WGCNA")
 
 # github packages
  install_github("satijalab/seurat")
