@@ -1,22 +1,21 @@
 source('https://bioconductor.org/biocLite.R')
 install.packages(c("tidyverse","dplyr","ggplot2","devtools","formatR","data.table","ggExtra","matrixStats","scales",
-"useful","grid","data.table","plotly","RColorBrewer","reshape2","plyr","VennDiagram","zoo","stringr","ggrepel","geneplotter",
-"RColorBrewer","VennDiagram","colorspace","fdrtool"),keep_outputs=TRUE)
+"useful","data.table","plotly","RColorBrewer","reshape2","plyr","VennDiagram","zoo","stringr","ggrepel",
+"RColorBrewer","VennDiagram","colorspace","fdrtool","h5"),keep_outputs=TRUE)
 
 
  
  # bioconductor packages
  biocLite("monocle")
- biocLite("DeSeq2")
+ biocLite("DESeq2")
  biocLite("biomaRt")
  biocLite("BioGenerics")
  biocLite("BiocInstaller")
  biocLite("BiocParralell")
- biocLite("Chipseeker")
+ biocLite("ChIPseeker")
  biocLite("clusterProfiler")
  biocLite("DOSE")
  biocLite("Gviz")
- biocLite("h5")
  biocLite("IRanges")
  biocLite("limma")
  biocLite("WGCNA")
@@ -28,4 +27,4 @@ install.packages(c("tidyverse","dplyr","ggplot2","devtools","formatR","data.tabl
  biocLite("geneplotter")
   
  # github packages
- install_github("satijalab/seurat")
+ devtools::install_github("satijalab/seurat")
