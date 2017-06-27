@@ -12,7 +12,7 @@ RUN apt-get update -qq && apt-get -y --no-install-recommends install \
   libpq-dev \
   libssh2-1-dev \
   && R -e "source('https://bioconductor.org/biocLite.R')" \
-  && Rscript /opt/install_scripts/install_Seurat.R
+RUN Rscript /opt/install_scripts/install_Seurat.R \
 
 
 ## Notes: Above install2.r uses --deps TRUE to get Suggests dependencies as well,
