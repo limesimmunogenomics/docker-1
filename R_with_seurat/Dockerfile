@@ -5,8 +5,7 @@
 # Set the base image to rocker/tidyverse
 FROM rocker/tidyverse
 
-# modified version
-# original file Author
+# File Author
 # cody by Geoffray Brelurut <brelurut@biologie.ens.fr>
 
 # Install required programs then clean up
